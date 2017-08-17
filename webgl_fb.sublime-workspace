@@ -1,0 +1,2541 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"tex",
+				"texdisplace"
+			],
+			[
+				"rcc",
+				"rcc_periph_clock_enable"
+			],
+			[
+				"timer",
+				"timer_setup"
+			],
+			[
+				"load",
+				"loadShaders"
+			],
+			[
+				"for",
+				"forv\tVector For Loop"
+			],
+			[
+				"glBind",
+				"glBindVertexArray"
+			],
+			[
+				"GL",
+				"GL_ARRAY_BUFFER"
+			],
+			[
+				"o",
+				"ovrEyeType"
+			],
+			[
+				"fo",
+				"for_each_eye"
+			],
+			[
+				"rif",
+				"rift_in_action"
+			],
+			[
+				"tar",
+				"target_link_libraries"
+			],
+			[
+				"un",
+				"uniMousePos"
+			],
+			[
+				"uni",
+				"uniTime"
+			],
+			[
+				"ver",
+				"vertexShader"
+			],
+			[
+				"out",
+				"outVelocity"
+			],
+			[
+				"Document",
+				"getCurrentDocument"
+			],
+			[
+				"string",
+				"stringblock_out"
+			],
+			[
+				"Error",
+				"IndexError"
+			],
+			[
+				"strc",
+				"str_contents"
+			],
+			[
+				"ex",
+				"except"
+			],
+			[
+				"CRE",
+				"CREATE_STMT"
+			],
+			[
+				"IN",
+				"INSERT_STMT"
+			],
+			[
+				"bee",
+				"beer_page"
+			],
+			[
+				"if",
+				"ifmain\tif __name__ == '__main__'"
+			],
+			[
+				"anal",
+				"analyzed_spectra"
+			],
+			[
+				"ana",
+				"analyzed_spectra"
+			],
+			[
+				"seq",
+				"seqElement"
+			],
+			[
+				"se",
+				"seqElement"
+			],
+			[
+				"fft",
+				"fft_size"
+			],
+			[
+				"ma",
+				"magic_numbers"
+			],
+			[
+				"LED",
+				"LED_PIN"
+			],
+			[
+				"st",
+				"stlink-v2"
+			],
+			[
+				"win",
+				"window_vector"
+			],
+			[
+				"inpu",
+				"input_frame"
+			],
+			[
+				"tr",
+				"truncate_imaginary"
+			],
+			[
+				"uin",
+				"uint8_t"
+			],
+			[
+				"Syst",
+				"SystemInitError"
+			],
+			[
+				"co",
+				"coeffs"
+			],
+			[
+				"y",
+				"y_n1"
+			],
+			[
+				"hs",
+				"hsvNoisePixel"
+			],
+			[
+				"time",
+				"timediv2"
+			],
+			[
+				"con",
+				"concatenate"
+			],
+			[
+				"wnd",
+				"window_vector"
+			],
+			[
+				"specf",
+				"spectral_frames"
+			],
+			[
+				"inp",
+				"input_frame"
+			],
+			[
+				"in",
+				"input_frame"
+			],
+			[
+				"hop",
+				"hopN"
+			],
+			[
+				"wi",
+				"window_vector"
+			],
+			[
+				"rgb",
+				"rgb2hsv"
+			],
+			[
+				"x",
+				"xchg \tExchange Register/Memory with Register"
+			],
+			[
+				"ptr",
+				"ptr1\tlabel"
+			],
+			[
+				"refe",
+				"ReferenceProgram"
+			],
+			[
+				"str",
+				"stringDataLen\tlabel"
+			],
+			[
+				"sk",
+				"skipOffsetAdjustment\tlabel"
+			],
+			[
+				"power",
+				"powerOfTenTerminate\tlabel"
+			],
+			[
+				"no",
+				"noframe"
+			],
+			[
+				"libpy",
+				"libpython3"
+			],
+			[
+				"re",
+				"returnVal\tlabel"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"area",
+				"areaVal"
+			],
+			[
+				"fst",
+				"fstp \tStore Floating Point Value"
+			],
+			[
+				"jg",
+				"jng \tJump if Condition Is Met"
+			],
+			[
+				"pr",
+				"print_binary"
+			],
+			[
+				"arg",
+				"argv"
+			],
+			[
+				"object",
+				"object_filename"
+			],
+			[
+				"ti",
+				"tile_fn"
+			],
+			[
+				"compare",
+				"compare_start_time"
+			],
+			[
+				"sub",
+				"subject\tsubject(:subject) { described_class.new }"
+			],
+			[
+				"comp",
+				"compare_field"
+			],
+			[
+				"di",
+				"d:ib\tdisplay:inline-block"
+			],
+			[
+				"bor",
+				"border-width"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"bucket",
+				"bucket_name"
+			],
+			[
+				"bucke",
+				"bucket_name"
+			],
+			[
+				"color",
+				"color1"
+			],
+			[
+				"sty",
+				"stylesheet_link_tag"
+			],
+			[
+				"gl",
+				"gltest"
+			],
+			[
+				"setup",
+				"setup_proc"
+			],
+			[
+				"fiel",
+				"field_count"
+			],
+			[
+				"rec",
+				"record_struct"
+			],
+			[
+				"firs",
+				"first_leg"
+			],
+			[
+				"dbc",
+				"dbc_name"
+			],
+			[
+				"record",
+				"record_struct"
+			],
+			[
+				"reco",
+				"records"
+			],
+			[
+				"recor",
+				"record_struct"
+			],
+			[
+				"header",
+				"header_data"
+			],
+			[
+				"db",
+				"dbc_name"
+			],
+			[
+				"file",
+				"file_element"
+			],
+			[
+				"try",
+				"try\tTry/Except"
+			],
+			[
+				"dbcf",
+				"dbcfilecontents"
+			],
+			[
+				"chunk",
+				"chunk_formats"
+			],
+			[
+				"nia",
+				"niam"
+			],
+			[
+				"sp",
+				"s_pulses"
+			],
+			[
+				"p",
+				"pulses"
+			],
+			[
+				"s_",
+				"s_pulses"
+			],
+			[
+				"MAU",
+				"MAUI_LED"
+			],
+			[
+				"tot",
+				"s_total"
+			],
+			[
+				"mi",
+				"midi_note_slider"
+			],
+			[
+				"vec",
+				"vec3"
+			],
+			[
+				"ou",
+				"outPosition"
+			],
+			[
+				"mouse",
+				"mouseX"
+			],
+			[
+				"ff",
+				"ff_write"
+			],
+			[
+				"Cre",
+				"createWaveShaper\t:AudioContext <WaveShaperNode>"
+			],
+			[
+				"createBuffer",
+				"createBuffer\t:AudioContext <AudioBuffer> (numberOfChannels, length, sampleRate)"
+			],
+			[
+				"lo",
+				"loop\tAttr"
+			],
+			[
+				"key",
+				"keyFbo"
+			],
+			[
+				"sca",
+				"scaleCoef"
+			],
+			[
+				"vi",
+				"vidPixel"
+			],
+			[
+				"updateSh",
+				"updateShader2"
+			],
+			[
+				"mb",
+				"m_buffer1"
+			],
+			[
+				"texutre",
+				"texture2D"
+			],
+			[
+				"incl",
+				"include <header>\tKeyWord"
+			],
+			[
+				"ls",
+				"lastFrame"
+			],
+			[
+				"arr",
+				"arraySize"
+			],
+			[
+				"lerp",
+				"lerpcolor\tlerpColor"
+			],
+			[
+				"moue",
+				"mouse\tmousePressed"
+			],
+			[
+				"Par",
+				"Particle"
+			],
+			[
+				"scale",
+				"scale\tscale"
+			],
+			[
+				"mou",
+				"mouse\tmousePressed"
+			],
+			[
+				"osc",
+				"_osc"
+			],
+			[
+				"addr",
+				"_addr"
+			],
+			[
+				"os",
+				"oscAddr"
+			],
+			[
+				"r",
+				"random\trandom"
+			],
+			[
+				"P",
+				"PVector"
+			],
+			[
+				"ara",
+				"arraySize"
+			],
+			[
+				"tes",
+				"testFft"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 189,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "blur.glsl",
+			"settings":
+			{
+				"buffer_size": 1249,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.js",
+			"settings":
+			{
+				"buffer_size": 3058,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 967,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Makefile/Make.sublime-build",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					"Clean"
+				],
+				[
+					"Packages/User/ChucK.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/ChucK.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Processing/Build Systems/Processing.sublime-build",
+					""
+				],
+				[
+					"Packages/Processing/Build Systems/Processing.sublime-build",
+					"Re-run sketch"
+				],
+				[
+					"Packages/Processing/Build Systems/Processing.sublime-build",
+					"Run sketch (Processing 3 only)"
+				],
+				[
+					"Packages/Processing/Build Systems/Processing.sublime-build",
+					"Run sketch fullscreen"
+				],
+				[
+					"Packages/Processing/Build Systems/Processing.sublime-build",
+					"Export sketch as application"
+				],
+				[
+					"Packages/Processing/Build Systems/Processing.sublime-build",
+					"Kill running sketches"
+				]
+			],
+			[
+				"Packages/Processing/Build Systems/Processing.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Processing/Build Systems/Processing.sublime-build",
+					""
+				],
+				[
+					"Packages/Processing/Build Systems/Processing.sublime-build",
+					"Re-run sketch"
+				],
+				[
+					"Packages/Processing/Build Systems/Processing.sublime-build",
+					"Run sketch (Processing 3 only)"
+				],
+				[
+					"Packages/Processing/Build Systems/Processing.sublime-build",
+					"Run sketch fullscreen"
+				],
+				[
+					"Packages/Processing/Build Systems/Processing.sublime-build",
+					"Export sketch as application"
+				],
+				[
+					"Packages/Processing/Build Systems/Processing.sublime-build",
+					"Kill running sketches"
+				],
+				[
+					"Packages/User/ChucK.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Processing/Build Systems/Processing.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/User/ChucK.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/arduino-cli/arduino-cli.sublime-build",
+					""
+				],
+				[
+					"Packages/arduino-cli/arduino-cli.sublime-build",
+					"just build"
+				],
+				[
+					"Packages/arduino-cli/arduino-cli.sublime-build",
+					"build and upload"
+				],
+				[
+					"Packages/User/ChucK.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/arduino-cli/arduino-cli.sublime-build",
+				"build and upload"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"last_filter": "form",
+		"selected_items":
+		[
+			[
+				"form",
+				"Format: Javascript"
+			],
+			[
+				"ssgl",
+				"Set Syntax: OpenGL SL"
+			],
+			[
+				"f",
+				"Format: Javascript"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"for",
+				"Clang Format: Format Selection"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"sslis",
+				"Set Syntax: Lisp"
+			],
+			[
+				"aut",
+				"AutoPEP8: Format Code"
+			],
+			[
+				"br",
+				"Preferences: Browse Packages"
+			],
+			[
+				"sel",
+				"ColorSchemeSelector: Select Color Scheme"
+			],
+			[
+				"bro",
+				"Preferences: Browse Packages"
+			],
+			[
+				"",
+				"Clang Format: Format Selection"
+			],
+			[
+				"clang format",
+				"Clang Format: Format Selection"
+			],
+			[
+				"ssc9",
+				"Set Syntax: C99"
+			],
+			[
+				"ssc",
+				"Set Syntax: C++11"
+			],
+			[
+				"git",
+				"Git: Graph All"
+			],
+			[
+				"ssmak",
+				"Set Syntax: Makefile"
+			],
+			[
+				"sspy",
+				"Set Syntax: Python"
+			],
+			[
+				"ssjs",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"ssas",
+				"Set Syntax: Assembly x86 (NASM)"
+			],
+			[
+				"aa",
+				"Set Syntax: ARM Assembly"
+			],
+			[
+				"ssjson",
+				"Set Syntax: JSON"
+			],
+			[
+				"rev",
+				"Permute Lines: Reverse"
+			],
+			[
+				"ssj",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"pep",
+				"AutoPEP8: Format Code"
+			],
+			[
+				"gitrs",
+				"Git: Reset (hard) HEAD"
+			],
+			[
+				"arc",
+				"Tasks: Archive"
+			],
+			[
+				"ssmk",
+				"Set Syntax: Makefile"
+			],
+			[
+				"taskn",
+				"Tasks: New document"
+			],
+			[
+				"task",
+				"Tasks: New document"
+			],
+			[
+				"ssc+",
+				"Set Syntax: C++11"
+			],
+			[
+				"ssmake",
+				"Set Syntax: Makefile"
+			],
+			[
+				"ssar",
+				"Set Syntax: ARM Assembly"
+			],
+			[
+				"arm",
+				"Set Syntax: ARM Assembly"
+			],
+			[
+				"ssarm",
+				"Set Syntax: ARM Assembly"
+			],
+			[
+				"ssba",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"ssbas",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"sspl",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"ss86",
+				"Set Syntax: Assembly x86 (NASM)"
+			],
+			[
+				"archi",
+				"Tasks: Archive"
+			],
+			[
+				"ssdif",
+				"Set Syntax: Diff"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"ssjso",
+				"Set Syntax: JSON"
+			],
+			[
+				"86",
+				"Set Syntax: Assembly x86 (NASM)"
+			],
+			[
+				"ssma",
+				"Set Syntax: MATLAB"
+			],
+			[
+				"s86",
+				"Set Syntax: Assembly x86 (NASM)"
+			],
+			[
+				"ssbash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"ss8",
+				"Set Syntax: Assembly x86 (NASM)"
+			],
+			[
+				"8",
+				"Set Syntax: Assembly x86 (NASM)"
+			],
+			[
+				"ssmakef",
+				"Set Syntax: Makefile"
+			],
+			[
+				"cla",
+				"Clang Format: Format Selection"
+			],
+			[
+				"clango",
+				"Clang Format: Format Selection"
+			],
+			[
+				"make",
+				"Set Syntax: Makefile"
+			],
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			],
+			[
+				"js",
+				"Format: Javascript"
+			],
+			[
+				"b",
+				"Preferences: Browse Packages"
+			],
+			[
+				"dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"disab",
+				"Package Control: Disable Package"
+			],
+			[
+				"enab",
+				"Package Control: Enable Package"
+			],
+			[
+				"sssp",
+				"Set Syntax: SPICE"
+			],
+			[
+				"neon",
+				"Snippet: flatten_once()"
+			],
+			[
+				"ru",
+				"RubyTest: Run Single Test"
+			],
+			[
+				"ruby",
+				"RubyTest: Run All Ruby Tests"
+			],
+			[
+				"ss 86",
+				"Set Syntax: Assembly x86 (NASM)"
+			],
+			[
+				"ssglsl",
+				"Set Syntax: OpenGL SL"
+			],
+			[
+				"print",
+				"Print to HTML: print as HTML via browser"
+			],
+			[
+				"ss 8x",
+				"Set Syntax: Assembly x86 (NASM)"
+			],
+			[
+				"ssx86",
+				"Set Syntax: Assembly x86 (NASM)"
+			],
+			[
+				"tasks",
+				"Tasks: Archive within selection(s)"
+			],
+			[
+				"ssasm",
+				"Set Syntax: Assembly x86 (NASM)"
+			],
+			[
+				"brows",
+				"Preferences: Browse Packages"
+			],
+			[
+				"clangf",
+				"Clang Format: Format Selection"
+			],
+			[
+				"rub",
+				"RubyTest: Run All Ruby Tests"
+			],
+			[
+				"r",
+				"RubyTest: Run Single Test"
+			],
+			[
+				"rubyte",
+				"RubyTest: Run Single Test"
+			],
+			[
+				"ssdi",
+				"Set Syntax: Diff"
+			],
+			[
+				"git dif",
+				"Git: Diff Current File"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"clan",
+				"Clang Format: Format Selection"
+			],
+			[
+				"test",
+				"RubyTest: Show Test Panel"
+			],
+			[
+				"push",
+				"Git: Push"
+			],
+			[
+				"git c",
+				"Git: Commit"
+			],
+			[
+				"gita",
+				"Git: Add Current File"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"ssham",
+				"Set Syntax: Ruby Haml"
+			],
+			[
+				"sst",
+				"Set Syntax: Tasks"
+			],
+			[
+				"gres",
+				"Git: Reset (unstage) Current File"
+			],
+			[
+				"floo",
+				"Floobits - Complete Sign Up"
+			],
+			[
+				"ssjos",
+				"Set Syntax: JSON"
+			],
+			[
+				"ssdiff",
+				"Set Syntax: Diff"
+			],
+			[
+				"diff",
+				"Git: Diff Current File"
+			],
+			[
+				"world",
+				"Word Wrap: Toggle"
+			],
+			[
+				"py",
+				"Build With: Python - Syntax Check"
+			],
+			[
+				"sscma",
+				"Set Syntax: CMake"
+			],
+			[
+				"ssta",
+				"Set Syntax: Tasks"
+			],
+			[
+				"ssin",
+				"Set Syntax: INI"
+			],
+			[
+				"ssmat",
+				"Set Syntax: MATLAB"
+			],
+			[
+				"git res",
+				"Git: Reset (hard) HEAD"
+			],
+			[
+				"sstas",
+				"Set Syntax: Tasks"
+			],
+			[
+				"gp",
+				"Git: Push"
+			],
+			[
+				"gc",
+				"Git: Commit"
+			],
+			[
+				"ssck",
+				"Set Syntax: ChucK"
+			],
+			[
+				"glsl",
+				"Set Syntax: OpenGL SL"
+			],
+			[
+				"en",
+				"Package Control: Enable Package"
+			],
+			[
+				"gls",
+				"Set Syntax: OpenGL SL"
+			],
+			[
+				"forma",
+				"Format: Javascript"
+			],
+			[
+				"brew",
+				"Preferences: Browse Packages"
+			],
+			[
+				"ssp",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"ssc++",
+				"Set Syntax: C++11"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"ssphp",
+				"Set Syntax: PHP"
+			],
+			[
+				"ssscal",
+				"Set Syntax: Scala"
+			],
+			[
+				"ssob",
+				"Set Syntax: Objective-C++"
+			],
+			[
+				"ssja",
+				"Set Syntax: Jade"
+			],
+			[
+				"s",
+				"Set Syntax: MATLAB"
+			],
+			[
+				"gitstas",
+				"Git: Stash Changes"
+			],
+			[
+				"sspro",
+				"Set Syntax: Processing"
+			],
+			[
+				"color",
+				"ColorSchemeSelector: Random Color Scheme"
+			],
+			[
+				"pref",
+				"Preferences: Settings - User"
+			],
+			[
+				"theme",
+				"Colorsublime: Browse Themes"
+			],
+			[
+				"sser",
+				"Set Syntax: ERB"
+			],
+			[
+				"in",
+				"Set Syntax: INI"
+			],
+			[
+				"sserb",
+				"Set Syntax: ERB"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"ssr",
+				"Set Syntax: Ruby on Rails"
+			],
+			[
+				"ssh",
+				"Set Syntax: HTML"
+			],
+			[
+				"ssht",
+				"Set Syntax: HTML (Tcl)"
+			]
+		],
+		"width": 579.0
+	},
+	"console":
+	{
+		"height": 399.0,
+		"history":
+		[
+			"sublime",
+			"sublime.log_indexing(True)",
+			"sublime.run_command(\"dark_switch\")",
+			"sublime.run_command(\"bb\")",
+			"sublime.run_command(\"dark_switch\")",
+			"dickburger.set(\"dark_color_scheme\", \"Packages/Colorsublime - Themes/cache/Colorsublime-Themes-master/themes/Bittersweet.tmTheme\")",
+			"dickburger.set(\"dark_color_scheme\")",
+			"dickburger.get(\"dark_theme\")",
+			" dickburger.get(\"dark_theme\")",
+			"sublime.MONOSPACE_FONT",
+			"dickburger.set(\"dark_theme\", \"Primer Dark.sublime-theme\")",
+			"dickburger = _",
+			"sublime.load_settings(\"dickburger.sublime-settings\")",
+			"sublime.save_settings(\"dickburger.sublime-settings\")",
+			"dir(sublime)",
+			"sublime.run_command(\"command_logger\")",
+			"sublime.run_command",
+			"prefs.get(\"color_scheme\")",
+			"prefs.get(\"theme\")",
+			"prefs.has(\"theme\")",
+			"prefs = sublime.load_settings(\"Preferences.sublime-settings\")",
+			"prefs.has(\"theme\")",
+			"str(prefs)",
+			"prefs.settings_id",
+			"dir(prefs)",
+			"for p in prefs:print p;",
+			"for p in prefs:",
+			"for p in prefs: print p;",
+			"for p in prefs: print p",
+			"prefs.get(\"theme\")",
+			"prefs = _",
+			"sublime.load_settings(\"Preferences\")",
+			"bubbies.get(\"bub\")",
+			"bubbies.set(\"bub\", \"bubbie\")",
+			"bubbies.set(\"bub\") = \"bubbie\"",
+			"bubbies[\"bub\"]",
+			"bubbies[\"bub\"] = \"bubbub\"",
+			"bubbies.set(\"bub\")",
+			"bubbies.get(\"\")",
+			"dir(bubbies)",
+			"bubbies",
+			"bubbies = _",
+			"sublime.load_settings(\"bubbies\")",
+			"sublime.load_settings()",
+			"dir(sublime)",
+			"sublime.packages_path()",
+			"logging",
+			"command",
+			"sublime.Settings()",
+			"sublime.Settings",
+			"for d in dir(sublime):",
+			"for d in dir(sublime): print d",
+			"for d in dir(sublime): print d;",
+			"for d in dir(sublime): print d",
+			"dir(sublime)",
+			"sublime.Settings.get(key=\"theme\")",
+			"sublime.Settings.get(\"theme\")",
+			"dir(sublime.Settings)",
+			"sublime.sublime_api",
+			"sublime.Settings()",
+			"sublime.Settings",
+			"dir(sublime)",
+			"sublime",
+			"window.folders()",
+			"dir(window)",
+			"window.views()",
+			"window",
+			"sublime",
+			"json.loads(urllib.request.urlopen('http://localhost:3000/v1/projects').read().decode('utf8'))",
+			"json.loads(urllib.request.urlopen('http://localhost:3000/v1/projects').decode('utf8'))",
+			"window.run_command(\"tazk_add\")",
+			"window.run_command('tazk_add')",
+			"window.run_command(\"tazk_add\")",
+			"window.run_command(\"add_tazk\")",
+			"window",
+			"for p in projects: print(p)",
+			"for p in projects: print(p);",
+			"for p in projects: print p;",
+			"for p in projects: print p",
+			"for p in projects: print p['name']",
+			"for p in projects:",
+			"projects = _",
+			"json.loads(urllib.request.urlopen('http://localhost:3000/v1/projects').read().decode('utf8'))",
+			"json.loads(urllib.request.urlopen('http://localhost:3000/v1/projects').decode('utf8'))",
+			"sys.version",
+			"sys",
+			"import sys",
+			"json.loads(urllib.request.urlopen('http://localhost:3000/v1/projects').read())",
+			"str(urllib.request.urlopen('http://localhost:3000/v1/projects').read())",
+			"type(_)",
+			"urllib.request.urlopen('http://localhost:3000/v1/projects').read()",
+			"type(_)",
+			"urllib.request.urlopen('http://localhost:3000/v1/projects')",
+			"type",
+			"urllib.request.urlopen('http://localhost:3000/v1/projects').readall()",
+			"dir(urllib.request.urlopen('http://localhost:3000/v1/projects'))",
+			"dir(http.client.HTTPResponse)",
+			"urllib.request.urlopen('http://localhost:3000/v1/projects')",
+			"decoder.raw_decode(urllib.request.urlopen('http://localhost:3000/v1/projects').read())",
+			"decoder.decode(urllib.request.urlopen('http://localhost:3000/v1/projects').read())",
+			"decoder.decode(urllib.request.urlopen('http://localhost:3000/projects').read())",
+			"dir(urllib.request)",
+			"import urllib.request",
+			"decoder.decode(urllib.request.openurl('http://localhost:3000/projects').read())",
+			"dir(decoder)",
+			"decoder",
+			"decoder = _",
+			"_()",
+			"json.JSONDecoder",
+			"dir(json)",
+			"import json",
+			"dir(urllib)",
+			"urllib",
+			"urllib.",
+			"import urllib",
+			"import urllib2",
+			"import base64",
+			"urllib.request.urlopen('http://google.com').read()",
+			"import urllib.request",
+			"import urllib",
+			"import httplib",
+			"sublime",
+			"sublime.run_command(\"tazk_add\")",
+			"sublime.run_command()",
+			"dir(sublime)",
+			"sublime_plugin",
+			"dir(sublime)",
+			"sublime.TextCommand"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/jrsa/code/gl/webgl_sketch1"
+	],
+	"file_history":
+	[
+		"/Users/jrsa/code/gl/webgl_sketch1/.jshintrc",
+		"/Users/jrsa/code/gl/webgl_sketch1/draw.fs.glsl",
+		"/Users/jrsa/code/gl/webgl_sketch1/sharp.glsl",
+		"/Users/jrsa/code/gl/webgl_sketch1/index.js",
+		"/Users/jrsa/code/gl/webgl_sketch1/passthru.vs.glsl",
+		"/Users/jrsa/code/gl/webgl_sketch1/package.json",
+		"/Users/jrsa/code/gl/webgl_sketch1/.editorconfig",
+		"/Users/jrsa/notes/identity immolation",
+		"/Users/jrsa/Desktop/of_v0.9.8_osx_release/apps/claypr0n2/bin/data/flow.frag",
+		"/Users/jrsa/Google Drive/(in addition to) Video Synth DIY/bitvision_dev_1.2/bitvision/bitvision.c",
+		"/Users/jrsa/Google Drive/Video Synth DIY/Gieskes/Time Base Forcer/TVoutTBF/examples/TBF09.pde",
+		"/private/tmp/touchtmp/dat_glsl1_pixel__td_15090_43.py",
+		"/private/tmp/touchtmp/dat_glsl1_pixel__td_14675_52.py",
+		"/private/tmp/touchtmp/dat_flow_vs__td_14675_53.py",
+		"/private/tmp/touchtmp/dat_sharp__td_9371_62.py",
+		"/Users/jrsa/Desktop/ythistory",
+		"/private/tmp/touchtmp/dat_table1__td_4337_47.py",
+		"/private/tmp/touchtmp/dat_glsl1_pixel__td_2616_44.py",
+		"/Users/jrsa/Desktop/of_v0.9.8_osx_release/apps/claypr0n2/src/ofApp.cpp",
+		"/Users/jrsa/code/stm32/OLIMEXINO-STM32_interrupt_blink_example/blinkled_interrupt/blinkled_interrupt.pde",
+		"/Users/jrsa/code/stm32/stm32_hello/Makefile",
+		"/Users/jrsa/Desktop/maxmsp/graphics patches/jit shaders.sublime-project",
+		"/Users/jrsa/code/gl/fbloop/main.cpp",
+		"/Users/jrsa/code/gl/fbloop/CMakeLists.txt",
+		"/Users/jrsa/code/gl/draw/fbo.cpp",
+		"/Users/jrsa/code/gl/draw/glfw_app.cpp",
+		"/Users/jrsa/code/gl/draw/glfw_app.hpp",
+		"/Users/jrsa/code/gl/draw/billboard.cpp",
+		"/Users/jrsa/code/gl/draw/simple_file.cpp",
+		"/Users/jrsa/Library/Python/3.5/lib/python/site-packages/wow/dbc/map2.xml",
+		"/Users/jrsa/code/gl/draw/proto/CMakeLists.txt",
+		"/Users/jrsa/code/gl/draw/cmake/FindGLFW3.cmake",
+		"/Users/jrsa/code/gl/draw/CMakeLists.txt",
+		"/Users/jrsa/code/gl/draw/fbloop.cpp",
+		"/tmp/subl stdin pF0oPU.txt",
+		"/Users/jrsa/code/gl/draw/proto/README.md",
+		"/tmp/subl stdin LQwtnt.txt",
+		"/Users/jrsa/src/multistomp/librfn/include/librfn/fibre.h",
+		"/Applications/Audacity/plug-ins/vocoder.ny",
+		"/Users/jrsa/code/rev/src/ReverbProcessor.h",
+		"/Users/jrsa/code/rev/src/ReverbProcessor.cpp",
+		"/Users/jrsa/code/dspsketches/four.cc",
+		"/Users/jrsa/code/dspsketches/.gitignore",
+		"/Users/jrsa/code/dspsketches/CMakeLists.txt",
+		"/Users/jrsa/code/dspsketches/two.cc",
+		"/Users/jrsa/Desktop/of_v0.9.8_osx_release/apps/myApps/mosh_mov/openFrameworks-Info.plist",
+		"/Users/jrsa/Desktop/of_v0.9.8_osx_release/apps/myApps/mosh_mov/src/ofApp.cpp",
+		"/Users/jrsa/Desktop/of_v0.9.8_osx_release/apps/myApps/mosh_mov/src/ofApp.h",
+		"/Users/jrsa/Desktop/of_v0.9.8_osx_release/apps/myApps/mosh_mov/.gitignore",
+		"/Users/jrsa/Desktop/of_v0.9.8_osx_release/apps/myApps/mosh_mov/bin/data/hsv.frag",
+		"/Users/jrsa/Desktop/Untitled.txt",
+		"/Users/jrsa/code/gl/buildtest/conf.yaml",
+		"/Users/jrsa/code/gl/draw/conf/read.cc",
+		"/Users/jrsa/code/gl/draw/xformfbnew.cpp",
+		"/Users/jrsa/code/gl/draw/fbo.h",
+		"/Users/jrsa/code/gl/draw/,",
+		"/Users/jrsa/code/dspsketches/one.cc",
+		"/Users/jrsa/code/lfsr/lfsr/lfsr.ino",
+		"/Users/jrsa/code/dspsketches/iir.cpp",
+		"/Users/jrsa/wow/Map.dbc.json",
+		"/Users/jrsa/code/dspsketches/adctest.cpp",
+		"/Users/jrsa/code/gl/draw/meshtest.cpp",
+		"/Users/jrsa/code/gl/draw/rift_in_action.h",
+		"/Users/jrsa/code/gl/draw/shader.cpp",
+		"/Users/jrsa/code/gl/draw/main.cpp",
+		"/Users/jrsa/code/gl/buildtest/balls.yaml",
+		"/Users/jrsa/code/gl/draw/particle_buffer.h",
+		"/Users/jrsa/code/gl/draw/xformfbtest.cpp",
+		"/Users/jrsa/code/gl/draw/particle_buffer.cpp",
+		"/Users/jrsa/code/gl/glsl/img/newbanger2.fs.glsl",
+		"/Users/jrsa/Desktop/of_v0.9.8_osx_release/apps/myApps/mosh_mov/Makefile",
+		"/Users/jrsa/wow/cocoaCasc.mm",
+		"/Users/jrsa/code/stm32/tre/f4-06/src/main.c",
+		"/Users/jrsa/Desktop/of_v0.9.8_osx_release/apps/myApps/mySketch/src/ofApp.cpp",
+		"/Users/jrsa/wow/wowlib/wdt.cpp",
+		"/Users/jrsa/code/stm32/vga_karl/system_stm32f4xx.c",
+		"/Users/jrsa/code/gl/glsl/img/dest.fs.glsl",
+		"/Volumes/Students/James Anderson/Private/New Unity Project/Assets/DistanceTrigger.js",
+		"/Users/jrsa/Desktop/synth diy/ming/Control Core/Firmware/Source/CC Firmware 2-01.c",
+		"/var/folders/cl/px_ttrg911x844pf8sx4rr4w0000gn/T/build4bc84840d55f9b1baae9b2ddeb6910b7.tmp/sketch/sketch_oct27d.ino.cpp",
+		"/Users/jrsa/Library/Arduino15/packages/arduino/hardware/avr/1.6.14/cores/arduino/Arduino.h",
+		"/var/folders/cl/px_ttrg911x844pf8sx4rr4w0000gn/T/build4bc84840d55f9b1baae9b2ddeb6910b7.tmp/sketch/sketch_oct27d.ino.cp",
+		"/Applications/Max 6.1/Cycling '74/jitter-shaders/shared/glsl/sh.passthrudim.vp.glsl",
+		"/Users/jrsa/Library/Application Support/Sublime Text 3/Packages/User/darkswitch.py",
+		"/usr/local/share/openocd/scripts/interface/stlink-v2-1.cfg",
+		"/usr/local/share/openocd/scripts/target/stm32f4x.cfg",
+		"/usr/local/share/openocd/scripts/board/st_nucleo_f4.cfg",
+		"/Users/jrsa/notes/todo",
+		"/Users/jrsa/code/gl/glsl/img/abesrc.fs.glsl",
+		"/Users/jrsa/code/gl/glsl/img/sp3_dest.fs.glsl",
+		"/Users/jrsa/code/gl/glsl/sp3_dest.fs.glsl",
+		"/Users/jrsa/home.html",
+		"/Users/jrsa/code/stm32/vga_karl/sys.c",
+		"/Users/jrsa/code/stm32/hello_world/stm324xx_hal_conf.h",
+		"/Users/jrsa/src/mutable_euro/build/clouds/codec.d",
+		"/Users/jrsa/Desktop/notes/hoppernotes.py",
+		"/Users/jrsa/.zshrc",
+		"/Users/jrsa/Desktop/notes/g0pher.mp3.txt",
+		"/Users/jrsa/Desktop/notes/identity immolation",
+		"/Users/jrsa/Desktop/notes/cracks.asm.txt",
+		"/opt/cycript/Cycript.lib/cycript0.9/org/cycript/NSLog.cy",
+		"/opt/cycript/Cycript.lib/cycript0.9/com/saurik/substrate/MS.cy",
+		"/Users/jrsa/Library/Python/3.5/lib/python/site-packages/wow/chunks.py",
+		"/Users/jrsa/Library/Python/3.5/lib/python/site-packages/wow/dbc/__init__.py",
+		"/Users/jrsa/wow/pyscripts/Map.dbc.json",
+		"/Users/jrsa/wow/wotlk.command",
+		"/Users/jrsa/wow/wotlk.sh",
+		"/Users/jrsa/wow/12340/Data/World/Maps/Azeroth/Azeroth.wdt",
+		"/Users/jrsa/wow/pyscripts/dbc_savetest.py",
+		"/Users/jrsa/wow/pyscripts/test_wdt.py",
+		"/Users/jrsa/wow/pyscripts/print_mcnks.py",
+		"/Users/jrsa/wow/pyscripts/print_chunks.py",
+		"/Users/jrsa/wow/pyscripts/json2dbc.py",
+		"/Users/jrsa/wow/pyscripts/dbcload.py",
+		"/Users/jrsa/wow/pyscripts/dbcdump.py",
+		"/Users/jrsa/wow/pyscripts/dbcload.py.bak",
+		"/Users/jrsa/wow/pyscripts/print_chunks.py.bak",
+		"/Users/jrsa/wow/pyscripts/test_wdt.py.bak",
+		"/Users/jrsa/wow/pyscripts/wmo_print.py",
+		"/Users/jrsa/src/lxml/setup.py",
+		"/Users/jrsa/wow/tcbuild335/CMakeCache.txt",
+		"/Users/jrsa/wow/reversing/cy_stuff1.txt",
+		"/Users/jrsa/wow/cyc_history_12_31_2016.txt",
+		"/opt/cycript/Cycript.lib/cycript0.9/co/jrsa/wow5875/cwrite.cy",
+		"/Users/jrsa/src/cycript/cycript0.9/org/cycript/NSLog.cy",
+		"/opt/cycript/Cycript.lib/cycript0.9/co/jrsa/wow5875/worldframe.cy",
+		"/tmp/subl stdin xw9eTh.txt",
+		"/Users/jrsa/src/brewerydb/sqlimport.py"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 222.0,
+		"where_history":
+		[
+			"<open folders>,<open files>",
+			"/Users/jrsa/code/cortex/STM32Cube_FW_F4_V1.13.0/Drivers",
+			"/Users/jrsa/code/cortex/STM32Cube_FW_F4_V1.13.0/Drivers/CMSIS",
+			"/Users/jrsa/code/cortex/STM32Cube_FW_F4_V1.13.0/Drivers/CMSIS,/Users/jrsa/code/cortex/STM32Cube_FW_F4_V1.13.0/Drivers/STM32F4xx_HAL_Driver",
+			"<open files>,<open folders>",
+			"/Users/jrsa/code/cortex/STM32Cube_FW_F4_V1.13.0/Drivers/STM32F4xx_HAL_Driver",
+			"<open folders>,<open files>",
+			"constructor",
+			"/Users/jrsa/Desktop/MTIID/miniAudicle/src/chuck/src",
+			"<open files>,<open folders>",
+			"<open files>",
+			"<open folders>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"a midi note",
+			"tex0",
+			"texture2DRect",
+			"blurAmnt",
+			"            ",
+			"texCoord0",
+			"pen",
+			"fuck",
+			" ",
+			"*1000",
+			"benson",
+			"08000240 W ",
+			"\n\n",
+			"isr",
+			"tim",
+			"sys.",
+			"Feedback Matrix Cell",
+			"rev_parms::g[",
+			"rev_parms::b[",
+			"rev_parms::c[",
+			"q0",
+			"q00",
+			"q0",
+			"Feedback Matrix Cell 1",
+			"Input Gain",
+			"Input",
+			"c2",
+			"c1",
+			"c0",
+			"Input",
+			"Source",
+			"Source/",
+			"Source",
+			"fdnreverberator",
+			"PluginProcessor",
+			"FdnreverberatorAudioProcessor",
+			"    \n",
+			"t",
+			"bb",
+			"one",
+			"d();",
+			"true);",
+			"    ",
+			"////////////////////////////////",
+			"amt",
+			"{\n    \n}",
+			"//--------------------------------------------------------------",
+			"drawer",
+			"passthru",
+			",",
+			"s(1",
+			" = 0",
+			"glEnable",
+			"glClear",
+			"glClearColor",
+			"cb",
+			"nFrames",
+			"bFrames",
+			"preferredSampleRates",
+			"NULL",
+			"bbval",
+			"MY_TYPE",
+			"dt",
+			"offset",
+			"channels",
+			"parms",
+			"NULL",
+			"streamTime",
+			"nBufferFrames",
+			"outputBuffer",
+			"sleep",
+			"SLEEP",
+			"nFrames",
+			"nBufferFrames",
+			"Buffer",
+			"\\n",
+			"filter",
+			"\\n",
+			"saw",
+			"eye",
+			"                              |",
+			"newbanger",
+			"GLint ",
+			"GLuint",
+			"0",
+			"vertexShader",
+			"field_width",
+			"400",
+			"output.",
+			"\"",
+			"1.05",
+			"//--------------------------------------------------------------",
+			"loadpixels",
+			"systemcoreclock",
+			"newradius * ",
+			"499",
+			"1.4427",
+			"pixel_hsv",
+			"501",
+			"499",
+			"gpio",
+			"STM32F4_BASEPATH",
+			"stm32f4xx_conf.h",
+			"x",
+			">>>",
+			" \"\", -2",
+			"-2",
+			"/Users/Shared/BuildServer/wow1/work/WoW-code/branches/wow-patch-3_3_5_A-BNet/WoW/Source/Mac/",
+			"print",
+			"file",
+			"MVER",
+			"NIAM",
+			"/usr/bin/env python",
+			"readline",
+			"0xEEEA8C",
+			"b21be8",
+			"//",
+			"&",
+			"false",
+			"\n",
+			"]",
+			",",
+			"|| \"\"",
+			",",
+			"\n",
+			"16",
+			"sierra",
+			"barleywine"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"/usr/bin/env python3",
+			"."
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 189,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								141,
+								141
+							]
+						],
+						"settings":
+						{
+							"color_helper.box_height": 16,
+							"color_helper.color_scheme": "Packages/Colorsublime - Themes/cache/Colorsublime-Themes-master/themes/Active4D.tmTheme",
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.scan":
+							{
+								"allowed_colors":
+								[
+									"rgb",
+									"hex_compressed",
+									"hsl",
+									"hsla",
+									"webcolors",
+									"rgba",
+									"hex"
+								],
+								"compress_hex_output": true,
+								"current_ext": ".html",
+								"current_syntax": "HTML/HTML",
+								"enabled": true,
+								"last_updated": 1502920861.38,
+								"scan_completion_scopes":
+								[
+								],
+								"scan_scopes":
+								[
+									"meta.declaration-list.css -support.type.property-name.css -comment -string",
+									"meta.property-value.css -comment -string",
+									"meta.value.css -comment -string",
+									"meta.tag.inline.any.html string.quoted -constant.character.entity.html",
+									"meta.tag.any.html meta.attribute-with-value.style.html"
+								],
+								"use_hex_argb": false
+							},
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "blur.glsl",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1249,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								697,
+								697
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": 0,
+								"count": 115,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"color_helper.box_height": 16,
+							"color_helper.color_scheme": "Packages/Colorsublime - Themes/cache/Colorsublime-Themes-master/themes/Active4D.tmTheme",
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.preview_meta":
+							{
+							},
+							"color_helper.scan":
+							{
+								"current_ext": ".glsl",
+								"current_syntax": "Shader Languages/OpenGL SL",
+								"enabled": false,
+								"last_updated": 1502997896.51
+							},
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/Shader Languages/OpenGL SL.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3058,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								420,
+								420
+							]
+						],
+						"settings":
+						{
+							"color_helper.box_height": 16,
+							"color_helper.color_scheme": "Packages/Colorsublime - Themes/cache/Colorsublime-Themes-master/themes/Active4D.tmTheme",
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.scan":
+							{
+								"current_ext": ".js",
+								"current_syntax": "JavaScriptNext - ES6 Syntax/JavaScriptNext",
+								"enabled": false,
+								"last_updated": 1502920861.38
+							},
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 881.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 967,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								967
+							]
+						],
+						"settings":
+						{
+							"color_helper.box_height": 16,
+							"color_helper.color_scheme": "Packages/Colorsublime - Themes/cache/Colorsublime-Themes-master/themes/Active4D.tmTheme",
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.scan":
+							{
+								"current_ext": ".json",
+								"current_syntax": "Theme - Afterglow/Prefs/Langs/npm JSON",
+								"enabled": false,
+								"last_updated": 1502920861.38
+							},
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/Theme - Afterglow/Prefs/Langs/npm JSON.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 32.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.assembly_documentation":
+	{
+		"height": 458.0
+	},
+	"output.autopep8":
+	{
+		"height": 104.0
+	},
+	"output.cc":
+	{
+		"height": 349.0
+	},
+	"output.exec":
+	{
+		"height": 462.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 586.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 104.0
+	},
+	"pinned_build_system": "",
+	"project": "webgl_fb.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"c",
+				"CMakeLists.txt"
+			],
+			[
+				"ofa",
+				"src/ofApp.cpp"
+			],
+			[
+				"",
+				"ofApp.cpp"
+			],
+			[
+				"cmkl",
+				"CMakeLists.txt"
+			],
+			[
+				"rif",
+				"rift_in_action.h"
+			],
+			[
+				"nw",
+				"img/newbanger2.fs.glsl"
+			],
+			[
+				"sys",
+				"sys.c"
+			],
+			[
+				"conf",
+				"stmlib/third_party/STM/stm32f10x_conf.h"
+			],
+			[
+				"str",
+				"dbc/stringpool.py"
+			],
+			[
+				"mai",
+				"main.cpp"
+			],
+			[
+				"geom",
+				"data/cubescape.geom.glsl"
+			],
+			[
+				"ver",
+				"data/cubescape.vert.glsl"
+			],
+			[
+				"m",
+				"main.ck"
+			],
+			[
+				"main",
+				"main.cpp"
+			],
+			[
+				"des2",
+				"glsl/dest2.fs.glsl"
+			],
+			[
+				"gl",
+				"glsl/dest.fs.glsl"
+			],
+			[
+				"stmlib",
+				"stmlib/stmlib.h"
+			],
+			[
+				"stm32f4xx_hal_gpio.h",
+				"Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h"
+			],
+			[
+				"on",
+				"onset_pitch.py"
+			],
+			[
+				"st",
+				"stft.py"
+			],
+			[
+				"cep",
+				"cepstrum.py"
+			],
+			[
+				"ma",
+				"main.c"
+			],
+			[
+				"sy",
+				"system.c"
+			],
+			[
+				"o",
+				"ovrdist.fs.glsl"
+			],
+			[
+				"ov",
+				"ovr.fs.glsl"
+			],
+			[
+				"3",
+				"3_2.fs.glsl"
+			],
+			[
+				"31",
+				"3_1.fs.glsl"
+			],
+			[
+				"des",
+				"dest.fs.glsl"
+			],
+			[
+				"strm",
+				"stringmimic.hla"
+			],
+			[
+				"ar",
+				"arrayproc.hla"
+			],
+			[
+				"la",
+				"week 5/hw.hla"
+			],
+			[
+				"fibrec",
+				"quiz2/fibrec.hla"
+			],
+			[
+				"mu",
+				"week 7/multitap.hla"
+			],
+			[
+				"me",
+				"todo/me.todo"
+			],
+			[
+				"site",
+				"source/stylesheets/site.css.scss"
+			],
+			[
+				"im",
+				"source/imgs.html.haml"
+			],
+			[
+				"vd",
+				"source/video.html.haml"
+			],
+			[
+				"v",
+				"source/video.html.haml"
+			],
+			[
+				"ste",
+				"app/models/step.rb"
+			],
+			[
+				"stepspe",
+				"spec/models/step_spec.rb"
+			],
+			[
+				"spe",
+				"spec/models/step_spec.rb"
+			],
+			[
+				"git",
+				".gitignore"
+			],
+			[
+				"per",
+				"source/performance.html.haml"
+			],
+			[
+				"write_head",
+				"source/index.html.haml"
+			],
+			[
+				"sit",
+				"source/stylesheets/site.css.scss"
+			],
+			[
+				"vid",
+				"source/video.html.haml"
+			],
+			[
+				"gem",
+				"Gemfile"
+			],
+			[
+				"vi",
+				"source/video.html.haml"
+			],
+			[
+				"giti",
+				".gitignore"
+			],
+			[
+				"p",
+				"source/performance.html.haml"
+			],
+			[
+				"na",
+				"_nav.html.haml"
+			],
+			[
+				"tri",
+				"app/models/trip.rb"
+			],
+			[
+				"factor",
+				"spec/factories/trips.rb"
+			],
+			[
+				"ct",
+				"app/actions/creates_trip.rb"
+			],
+			[
+				"tc",
+				"app/controllers/trips_controller.rb"
+			],
+			[
+				"form",
+				"dbc/format_import.py"
+			],
+			[
+				"for",
+				"dbc/format_import.py"
+			],
+			[
+				"chu",
+				"chunks.py"
+			],
+			[
+				"fir",
+				"firwin"
+			],
+			[
+				"bk",
+				"bjorklund.ck"
+			],
+			[
+				"vs",
+				"physExample.vs.glsl"
+			],
+			[
+				"fs",
+				"physExample.fs.glsl"
+			],
+			[
+				"g",
+				"gren.glsl"
+			],
+			[
+				"blu",
+				"blur.glsl"
+			],
+			[
+				"blur",
+				"blur.glsl"
+			],
+			[
+				"sha",
+				"data/sharp.glsl"
+			],
+			[
+				"2",
+				"2.fs.glsl"
+			],
+			[
+				"dra",
+				"draw.fs.glsl"
+			],
+			[
+				"bun",
+				"bundle.js"
+			],
+			[
+				"pack",
+				"package.json"
+			],
+			[
+				"bp",
+				"BallPass69/BallPass69.cpp"
+			],
+			[
+				"dif",
+				"data/diff2.glsl"
+			],
+			[
+				"rot",
+				"texdisplace/td.rota.jxs"
+			],
+			[
+				"make",
+				"Makefile"
+			],
+			[
+				"pe",
+				"ParticleSystemExample3.pde"
+			],
+			[
+				"poi",
+				"Point.pde"
+			],
+			[
+				"frag",
+				"data/cubescape.frag.glsl"
+			],
+			[
+				"ve",
+				"data/cubescape.vert.glsl"
+			],
+			[
+				"addit",
+				"composite/co.additive.jxs"
+			],
+			[
+				"add",
+				"composite/co.additive.jxs"
+			],
+			[
+				"dia",
+				"shared/glsl/cf.diag5.vp.glsl"
+			],
+			[
+				"shar",
+				"convolution/cf.sharpen.jxs"
+			],
+			[
+				"ssi",
+				"ss2016/index.html"
+			],
+			[
+				"arr",
+				"about_arrays.rb"
+			],
+			[
+				"ni",
+				"about_nil.rb"
+			],
+			[
+				"ass",
+				"about_asserts.rb"
+			],
+			[
+				"rec",
+				"basic/rec.ck"
+			],
+			[
+				"ini",
+				"initialize.ck"
+			],
+			[
+				"ne",
+				"noteevent.ck"
+			],
+			[
+				"dr",
+				"drum.ck"
+			],
+			[
+				"n",
+				"noteevent.ck"
+			],
+			[
+				"in",
+				"initialize.ck"
+			],
+			[
+				"sc",
+				"score.ck"
+			],
+			[
+				"sb",
+				"sampbank.ck"
+			],
+			[
+				"b",
+				"bpm.ck"
+			],
+			[
+				"fx",
+				"fx.ck"
+			],
+			[
+				"bpm",
+				"bpm.ck"
+			],
+			[
+				"score",
+				"score.ck"
+			],
+			[
+				"s",
+				"score.ck"
+			],
+			[
+				"ass3",
+				"ass3/ass3.ck"
+			],
+			[
+				"not",
+				"drumcircle/noteevent.ck"
+			],
+			[
+				"ass4",
+				"ass4/ass4_noFm.ck"
+			],
+			[
+				"ass5",
+				"ass5/ass5.ck"
+			],
+			[
+				"as",
+				"final/ass3_cleaned.ck"
+			],
+			[
+				"dru",
+				"drumcircle/drum.ck"
+			],
+			[
+				"lp",
+				"final/lpadtest.ck"
+			],
+			[
+				"a",
+				"app.js"
+			],
+			[
+				"mkl",
+				"distribute/include/caffe/util/mkl_alternate.hpp"
+			],
+			[
+				"glsh",
+				"src/draw/gl_shared.hpp"
+			],
+			[
+				"wdt",
+				"src/wowlib/wdt.cpp"
+			],
+			[
+				"wdt.h",
+				"src/wowlib/wdt.h"
+			],
+			[
+				"sh.passthru.xform.vp.glsl",
+				"shared/glsl/sh.passthru.xform.vp.glsl"
+			],
+			[
+				"sub",
+				"templates/submit.html"
+			],
+			[
+				"wmot",
+				"src/wowlib/wmotest.cc"
+			],
+			[
+				"tile",
+				"src/wowlib/tiletest.cpp"
+			],
+			[
+				"cml",
+				"CMakeLists.txt"
+			],
+			[
+				"fo",
+				"adt/format.h"
+			],
+			[
+				"ch",
+				"adt/chunk.h"
+			],
+			[
+				"ut",
+				"utility.cpp"
+			],
+			[
+				"f",
+				"file/local_file.cpp"
+			],
+			[
+				"u",
+				"utility.cpp"
+			],
+			[
+				"adt",
+				"adt/adt.cpp"
+			],
+			[
+				"tt",
+				"tiletest.cpp"
+			],
+			[
+				"wm",
+				"wmo/wmo.h"
+			],
+			[
+				"lo",
+				"file/local_file.h"
+			],
+			[
+				"lof",
+				"file/local_file.cpp"
+			],
+			[
+				"ad",
+				"adt/adt.cpp"
+			],
+			[
+				"cmk",
+				"CMakeLists.txt"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 375.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"bls",
+				"BLSShader"
+			],
+			[
+				"",
+				"BLSShader"
+			],
+			[
+				"rend",
+				"Render"
+			],
+			[
+				"entityaiwa",
+				"EntityAIWatchClosest"
+			],
+			[
+				"ent",
+				"EntityTNTPrimed"
+			],
+			[
+				"entitytnt",
+				"EntityTNTPrimed"
+			]
+		],
+		"width": 498.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 270.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
