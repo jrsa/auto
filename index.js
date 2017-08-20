@@ -22,19 +22,6 @@ var params = {
     reset: 20,
 }
 
-function seed(fbo) {
-    var w = fbo._shape[0]
-    var h = fbo._shape[1]
-    var initial_conditions = ndarray(new Uint8Array(w * h * 4), [w, h, 4])
-    fill(initial_conditions, function(x, y, c) { // seed
-        if (c == 3) {
-            return 255; // alpha channel
-        }
-        return Math.random() * 255
-    })
-    fbo.color[0].setPixels(initial_conditions) // write seed to one fbo
-}
-
 global.params = params // for js console tweaking
 global.shell = shell
 
@@ -64,8 +51,6 @@ shell.on("gl-init", function() {
 
     blurFbo = createFBO(gl, size)
     sharpFbo = createFBO(gl, size)
-
-    seed(sharpFbo);
 })
 
 shell.on("gl-render", function(t) {
