@@ -39,54 +39,68 @@ void main() {
 
     // previous shaders used the vertex position instead of UV, which
     // also required a "halving" transformation which is omitted here
-    vec4 pos = vec4(uv.s, uv.t, 0.0, 1.0); // previous shaders used the vertex position instead of UV
+    //vec4 pos = vec4(uv.s, uv.t, 0.0, 1.0); // previous shaders used the vertex position instead of UV
+    // vec3 pixel = texture2D(shampler, tc).rgb;
+
+    // output
+    vec4 color = vec4(0.0);
+
+    // constant zoom/rotate
+    float scale_factor = 0.986 + (mouse.y * 0.009);
+    float fixangle = 0.001;
+    tc -= vec2(0.5);
+    tc *= mat2(scale_factor, 0.0, 0.0, scale_factor);
+    tc *= mat2(cos(fixangle), sin(fixangle), -sin(fixangle), cos(fixangle));
+    tc += vec2(0.5);
+
+    // zoom/rotate based on hue/saturation
     vec3 pixel = texture2D(shampler, tc).rgb;
+    vec3 s = rgb2hsv(pixel);
 
-    vec3 hsv = rgb2hsv(pixel);
+    float angle = ((tc.s + 0.4) * 0.04) * ((s.r * s.g) - 0.5);
+    angle *= 0.75;
 
-    mat2 sca = mat2(1. + hsv.r, 0., 0., 1. + hsv.r);
+    tc -= vec2(0.5);
+    tc *= mat2(cos(angle), sin(angle), -sin(angle), cos(angle));
+    tc += vec2(0.5);
 
-    float angle = 0.05 * hsv.r;
-    mat2 rot = mat2(cos(angle), sin(angle), -sin(angle), cos(angle));
+    float xscale = 1. - (-s.r * 0.009);
+    float yscale = 1. - ( s.g * 0.009);
 
-    // size of one pixel (filter width scales by this so that )
-    vec2 offs = vec2(1. / dims.x, 1. / dims.y);
+    tc -= vec2(0.5);
+    tc *= mat2(xscale, 0., 0., yscale);
+    tc += vec2(0.5);
 
-    tc *= sca;
-    tc *= rot;
+    // these aren't too different...
+    float d = dot(s.bg, tc);
+    float e = dot(s.rb, tc.ts);
+    // d = length(s.bg);
+    // d = 1.0;
 
-    vec2 src = tc;
+    // get a neighboring pixel based on the above value
+    vec4 prelook = texture2D(shampler, tc + (d * 0.009));
+    
+    // don't look at me, idk man
+    d *= prelook.b;
+    d += length(prelook) / 4.0;
+    d -= length(s) / (4.0);
 
-    offs *= mat2(cos(angle), sin(width), -sin(width), cos(angle));
-    float width = width + hsv.g;    
+    // final texture sample
+    vec4 bc_out = texture2D(shampler, tc + (d * 0.001)) * ((d * 0.001) + 1.0);
 
-    vec2 tc4 = src;
-    vec2 tc1 = src + vec2(0.0, -offs.t * width);
-    vec2 tc3 = src + vec2(-offs.s * width, 0.0);
-    vec2 tc5 = src + vec2(offs.s * width, 0.0);
-    vec2 tc7 = src + vec2(0.0, offs.t * width);
+    // shift hue and saturation
+    vec3 shift = s;
+    shift.r += (d / 100.0);
+    shift.g += (d * 0.04);
 
-    vec4 col1 = texture2D(shampler, tc1);
-    vec4 col3 = texture2D(shampler, tc3);
-    vec4 col5 = texture2D(shampler, tc5);
-    vec4 col7 = texture2D(shampler, tc7);
+    // mix between the shifted and repositioned values
+    color += mix(bc_out, vec4(hsv2rgb(shift), 1.0), 0.6);
 
-    //
-    //  HUE SHIFT
-    //
-    hsv.b -= 0.0169;
+    // spatial differencing using intermediate pixel value (`prelook`)
+    color += 0.005;
+    // color *= 1.005;
+    color *= .99 + (e * .05 * ((mouse.x * 3.0) + 0.6)); 
+    color -= (prelook * 0.02);
 
-    vec2 pos_factor = (pos.xy * mouse);
-    pos_factor *= mat2(0.5, 0.0, 0.0, 0.5);
-    pos_factor *= rot;
-
-    float d = dot(vec4(pos_factor, pos.zw), vec4(hsv, 0.23));
-    d *= dot(vec4(pos_factor, pos.zw), vec4(hsv * 3.50, 1.0));
-    d *= 1.2;
-
-    // hsv.r += (d * 0.04);
-    // hsv.r -= (d * mouse.x * 0.05);
-
-    float amp = 19.0;
-    gl_FragColor = vec4(hsv2rgb(hsv), 1.0) * (d * 4.5) - ((col1 + col3 + col5 + col7) / amp);
+    gl_FragColor = color;
 }
