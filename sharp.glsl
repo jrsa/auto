@@ -73,9 +73,11 @@ void main() {
 
     // these aren't too different...
     float d = dot(s.bg, tc);
-    float e = dot(s.rb, tc.ts);
     // d = length(s.bg);
     // d = 1.0;
+
+    // another one to control the final "gain stage"
+    float e = dot(s.rb, tc.ts);
 
     // get a neighboring pixel based on the above value
     vec4 prelook = texture2D(shampler, tc + (d * 0.009));
