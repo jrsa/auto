@@ -46,10 +46,12 @@ void main() {
     vec4 color = vec4(0.0);
 
     // constant zoom/rotate
-    float scale_factor = 0.986 + (mouse.y * 0.009);
+    float scalex = 0.995 + (0.01 * mouse.x);
+    float scaley = 0.995 + (0.01 * mouse.y);
+
     float fixangle = 0.001;
     tc -= vec2(0.5);
-    tc *= mat2(scale_factor, 0.0, 0.0, scale_factor);
+    tc *= mat2(scalex, 0.0, 0.0, scaley);
     tc *= mat2(cos(fixangle), sin(fixangle), -sin(fixangle), cos(fixangle));
     tc += vec2(0.5);
 
@@ -58,14 +60,14 @@ void main() {
     vec3 s = rgb2hsv(pixel);
 
     float angle = ((tc.s + 0.4) * 0.04) * ((s.r * s.g) - 0.5);
-    angle *= 0.75;
+    angle *= 0.275;
 
     tc -= vec2(0.5);
     tc *= mat2(cos(angle), sin(angle), -sin(angle), cos(angle));
     tc += vec2(0.5);
 
     float xscale = 1. - (-s.r * 0.009);
-    float yscale = 1. - ( s.g * 0.009);
+    float yscale = 1. - (s.g * 0.009);
 
     tc -= vec2(0.5);
     tc *= mat2(xscale, 0., 0., yscale);
@@ -73,36 +75,34 @@ void main() {
 
     // these aren't too different...
     float d = dot(s.bg, tc);
+    float e = dot(s.rb, tc.ts);
     // d = length(s.bg);
     // d = 1.0;
 
-    // another one to control the final "gain stage"
-    float e = dot(s.rb, tc.ts);
-
     // get a neighboring pixel based on the above value
-    vec4 prelook = texture2D(shampler, tc + (d * 0.009));
-    
+    vec4 prelook = texture2D(shampler, tc + (d * 0.3));
+
     // don't look at me, idk man
     d *= prelook.b;
     d += length(prelook) / 4.0;
-    d -= length(s) / (4.0);
+    d -= length(s) / 4.0;
 
     // final texture sample
     vec4 bc_out = texture2D(shampler, tc + (d * 0.001)) * ((d * 0.001) + 1.0);
 
     // shift hue and saturation
     vec3 shift = s;
-    shift.r += (d / 100.0);
-    shift.g += (d * 0.04);
+    shift.r += (d / 10.0);
+    shift.g += (d * 0.08);
 
     // mix between the shifted and repositioned values
-    color += mix(bc_out, vec4(hsv2rgb(shift), 1.0), 0.6);
+    float q = 40.0 * (-s.g);
+    color += mix(bc_out, vec4(hsv2rgb(shift), 1.0), mouse.x);
 
     // spatial differencing using intermediate pixel value (`prelook`)
     color += 0.005;
     // color *= 1.005;
-    color *= .99 + (e * .05 * ((mouse.x * 3.0) + 0.6)); 
+    color *= .99 + (e * .015);
     color -= (prelook * 0.02);
-
     gl_FragColor = color;
 }
