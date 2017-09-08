@@ -2,18 +2,17 @@ precision mediump float;
 
 uniform sampler2D buffer, vid;
 uniform vec2 dims;
-uniform float width;
-uniform float amp;
-uniform float scaleCoef;
 
 varying vec2 uv;
 
 void main() {
     vec2 offs = vec2(1. / dims.x, 1. / dims.y);
 
-    vec2 src = uv.st;// * sca;
+    vec2 src = uv.st;
 
     vec2 tc4 = src;
+
+    float width = 0.6;
     vec2 tc1 = src + vec2(0.0, -offs.t * width);
     vec2 tc3 = src + vec2(-offs.s * width, 0.0);
     vec2 tc5 = src + vec2(offs.s * width, 0.0);
@@ -34,7 +33,8 @@ void main() {
     vec4 col7 = texture2D(buffer, tc7);
     vec4 col8 = texture2D(buffer, tc8);
 
-    // shitty gaussian blur
-    gl_FragColor = (2.0 * col0 + 1.0 * col1 + 2.0 * col2 + 1.0 * col3 + 4.0 * col4 + 1.0 * col5 + 2.0 * col6 + 1.0 * col7 + 2.0 * col8) / amp;
+    gl_FragColor = (2.0 * col0 + 1.0 * col1 + 2.0 * col2 
+                  + 1.0 * col3 + 4.0 * col4 + 1.0 * col5
+                  + 2.0 * col6 + 1.0 * col7 + 2.0 * col8) / 16.0;
 
 }

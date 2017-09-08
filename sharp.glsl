@@ -2,9 +2,6 @@ precision mediump float;
 
 uniform sampler2D shampler;
 uniform vec2 dims;
-
-uniform float width, amp;
-
 uniform vec2 mouse;
 
 varying vec2 uv;
@@ -30,17 +27,8 @@ vec3 hsv2rgb(vec3 color) {
     return rgb;
 }
 
-//
-//  MAIN
-//
 void main() {
-    // copy this so that we can modify it :x
     vec2 tc = uv;
-
-    // previous shaders used the vertex position instead of UV, which
-    // also required a "halving" transformation which is omitted here
-    //vec4 pos = vec4(uv.s, uv.t, 0.0, 1.0); // previous shaders used the vertex position instead of UV
-    // vec3 pixel = texture2D(shampler, tc).rgb;
 
     // output
     vec4 color = vec4(0.0);
@@ -97,7 +85,7 @@ void main() {
 
     // mix between the shifted and repositioned values
     float q = 40.0 * (-s.g);
-    color += mix(bc_out, vec4(hsv2rgb(shift), 1.0), mouse.x);
+    color += mix(bc_out, vec4(hsv2rgb(shift), 1.0), (mouse.x + 0.3) * 0.4);
 
     // spatial differencing using intermediate pixel value (`prelook`)
     color += 0.005;
